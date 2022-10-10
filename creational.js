@@ -35,3 +35,35 @@ const cedes_h20 = new CarBoat (0, "red", true, 8);
 
 console.log(cedes_h20);
 console.log(cedes_h20.radar);
+
+
+//3. Singleton - Allows only one instance of the class
+
+let instance = null;
+
+class Car1 {
+    constructor(seats, color, convertible) {
+
+        if (!instance) {
+            this.seats = seats;
+            this.color = color;
+            this.convertible = convertible;
+            instance = this;
+        }
+        
+        else {
+            return instance;
+        }
+        
+    }
+}
+
+const cedes1 = new Car1(7, "gray", true);
+
+console.log(cedes1);
+console.log(cedes1.seats);
+
+const cedes2 = new Car1(5, "Red", true);
+
+console.log(cedes2);
+console.log(cedes2.color);
