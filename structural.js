@@ -41,3 +41,6 @@ console.log(cedes.revEng());
 /*
     3. Facade DP - creates a facade by hiding all the code complexity away
 */
+
+//An example is in React when you write your components in other files and leverage a single line to render them.
+
