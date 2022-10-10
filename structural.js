@@ -44,3 +44,9 @@ console.log(cedes.revEng());
 
 //An example is in React when you write your components in other files and leverage a single line to render them.
 
+/*
+    4. Flyweight DP - Prevents creation of similar items more than once.
+        It reduces the memory impact of the system
+*/
+//An example is the approach of singleton creational DP where new instances of the same class are not allowed.
+//An application is how browsers save images in memory so they don't load twice.
