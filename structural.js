@@ -50,3 +50,9 @@ console.log(cedes.revEng());
 */
 //An example is the approach of singleton creational DP where nmore than one instances of the same class are not allowed.
 //An application is how browsers save images in memory so they don't load twice.
+
+/*
+    5. Decorator DP -Allows you to mix functions with classes.
+    Not official in JS but is in TS
+*/
+
